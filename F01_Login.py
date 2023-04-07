@@ -1,6 +1,7 @@
 import csv 
 from OurFunction import *
 
+
 def Login():
     login_status = False
     not_found = False
@@ -27,9 +28,13 @@ def Login():
 
     if not_found == True: 
         print("username tidak terdaftar")
+        role = ""
+        return role
     else:
         if login_status == False: 
             print("Password salah!")
+            role = ""
+            return role
         else: 
             print(f"Selamat datang {username}")
             return role

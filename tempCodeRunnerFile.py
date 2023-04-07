@@ -1,1 +1,1 @@
-username_check
+Logout
