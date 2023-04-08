@@ -1,8 +1,7 @@
 #Program utama ada disini
-from login import Login
-from logout import Logout
+from F01_Login import Login 
+from F02_Logout import Logout
 from helps import *
-import os
 
 
 role = ""
